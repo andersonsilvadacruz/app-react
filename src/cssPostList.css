@@ -1,0 +1,14 @@
+ @media screen and (max-width: 320px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+    img {
+      display: block;
+      overflow-x: auto;
+    }
+}
+
+body::-webkit-scrollbar { 
+  /* solo oculta su visualizacion */
+  display: none;}
